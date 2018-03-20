@@ -1,0 +1,24 @@
+## How to build the docker image
+
+1. Copy ballerina-tools-0.964.0.zip
+2. Use the following command to build the docker image
+
+docker build -t pubudu/helloworld:v1 .
+
+## How to run the docker image
+
+docker run -d pubudu/helloworld:v1
+
+## Access the service
+
+http://172.17.0.2:9090/helloWorld/sayHello
+http://172.17.0.2:9090/helloWorld/delayHello
+
+
+## View logs
+
+docker logs <Container_ID>
+
+## Bash into a running container
+
+docker exec -it <Container_id> bash
