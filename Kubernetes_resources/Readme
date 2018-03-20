@@ -15,7 +15,7 @@ kubectl create -f ingress.yaml
 kubectl get ingress -n wso2
 
 Result:
-AME                 HOSTS        ADDRESS          PORTS     AGE
+NAME                 HOSTS        ADDRESS          PORTS     AGE
 helloworld-ingress   test.k8.com   104.154.45.225   80        4m
 
 
