@@ -20,7 +20,7 @@ metadata:
   name: helloworld
   labels:
     pattern-test: kubernetes-demo-test
-   namespace: wso2
+  namespace: wso2
 spec:
   type: NodePort
   ports:
